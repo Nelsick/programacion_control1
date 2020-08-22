@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century gothic;
+}
+
+body{
+    text-align: center;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #444;
+    color: white;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*  Estilos de la pregunta 1 */
+
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 37%;
+    margin-bottom: 20px;
+}
+
+caption {
+    font-size: xx-large;
+}
+
+td{
+    border: 1px solid #ccc;
+}
+
+th{
+    background-color: #444;
+    color: #fff;
+}
+
+td, th{
+    text-align: center;
+    padding: 0.5em;
+}
+
+/* Estilos de la pregunta 2 */
+
+.formulario{
+    width: 40%;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px grey;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+form label{
+    display: block;
+    padding: 10px;
+}
+
+form input{
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+form button {
+    display: inline-block;
+    padding: 0.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.resultado{
+    margin-bottom: 20px;
+    font-size: x-large;
+}
