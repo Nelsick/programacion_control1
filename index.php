@@ -84,8 +84,21 @@
 
     <hr>
 
-    <div class="uf">
-        <h2> Pregunta 2 - Calculadora de UF </h2>
+    <h2> Pregunta 3 - Calculadora de UF </h2>
+
+    <div class="formulario">
+
+        <?php require_once './controllers/ufcalculator.php' ?>
+
+        <form action="index.php" method="POST">
+            <label for="uf"> Valor en UF </label>
+            <input type="text" id="uf" name="uf" placeholder="Ingrese la cantidad de UF" value="<?php echo $UF ?>" required>
+            <button type="submit" name="CalcularUf">Calcular</button> 
+        </form>
+
+        <div class="resultado">
+              <?php echo "El valor del producto es: ", calculaUf($UF) ?>      
+        </div>
     </div>
 
 
